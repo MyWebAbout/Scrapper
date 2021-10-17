@@ -544,7 +544,7 @@ exports.igstalk = async (username) => {
 			'method': 'GET',
 			'headers': {
 				'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36',
-				'cookie': 'isi sendiri cokie igeh'
+				'cookie': '_ga=GA1.2.1240046717.1620835673; PHPSESSID=i14curq5t8omcljj1hlle52762; popCookie=1; _gid=GA1.2.1936694796.1623913934'
 			}
 		})
 		let user = data.graphql.user
